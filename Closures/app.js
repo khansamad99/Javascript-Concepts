@@ -8,7 +8,7 @@ function outer(arg1) {
     }
   
     return inner
-    // return 10
+    
   }
   
   let x = outer('param1')
@@ -51,5 +51,3 @@ function outer(arg1) {
   
   let x = outer('param1')
   x('param2')
-
-
