@@ -47,11 +47,11 @@ let obj2 = {
   //z() // Output is Global Object
       // So basically 'this' in JS bounds at runtime
       // When this func will run the JS interpreter will check if that func is called  via an Object then 'this' will point the object
-      //If it is not called via an object then it will point current scope
+      // If it is not called via an object then it will point current scope
 
 
       let obj3 = {
-        "a": 10,
+        a: 10,
         b: 'asdsa',
         c: true,
         d: function () {
@@ -68,4 +68,5 @@ let obj2 = {
         },
       }
 
-      obj3.e.n() // Output : { l: 234, m: 'sdgsdg', n: [Function: n] } It is pointing to 'e' object
+      //obj3.e.n() // Output : { l: 234, m: 'sdgsdg', n: [Function: n] } It is pointing to 'e' object
+
