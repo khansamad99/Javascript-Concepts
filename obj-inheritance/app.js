@@ -25,3 +25,19 @@ let obj3 = Object.create(obj2)
         -> ... and so on... 
         -> till .__proto__ becomes null
 */
+
+
+// obj3
+// {}
+// obj3.__proto__
+// {p: "abc", q: "def", r: "hij"}
+// obj3.__proto__.proto
+// undefined
+// obj3.__proto__.__proto__
+// {a: 10, b: 20, c: 30}
+// obj3.__proto__.__proto__ == obj1
+// true
+// obj3.__proto__.__proto__ == obj2
+// false
+// obj3.__proto__ == obj2
+// true
