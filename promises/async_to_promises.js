@@ -25,3 +25,14 @@ someTaskPromise()
 // When we use an async function we have a async function genreally called and inside that function we create another function
 
 // Async func(func1(){}) ->  func1 is called when task is done
+
+// asyncFunc(func(done){
+//     ...
+//     ... we are doing something
+//     when finished
+//     done()
+// })
+
+// run Promise()
+// <Promise> -> then()
+//           -> catch(err)
